@@ -52,3 +52,32 @@ body {
   color: #00FFF8;
   margin-bottom: 24px;
 }
+
+.container .footer {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start;
+  align-items: center; */
+}
+
+.container .footer .img {
+  border-radius: 50%;
+}
+
+.container .footer .write {
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8BACD9;
+  padding: 0px;
+  margin: 0px;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.container .footer .write span {
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
